@@ -100,7 +100,7 @@ ____(10 _ 2 __ ? )
 ```
 
 
-# Tipos de datos estructurados
+## Tipos de datos estructurados
 
 ```python
 x = [1,2,3,4]
@@ -119,7 +119,7 @@ mis_datos["telefono"]       # Error
 mis_datos.get("telefono")   # None
 ```
 
-# Organizando nuestros datos
+## Organizando nuestros datos
 
 ```python
 tabla = [
@@ -148,6 +148,65 @@ coordenadas = [
     [1154213,-1235123],
     [5243534,-512435123]
 ]
+```
+
+# Bloques, Control de Flujo ciclos y funciones.
+
+```python
+print("Fuera de bloque")
+x = 5 + 10
+if x > 10 and not x < 12 :
+    print("dentro de bloque")
+    x = 5+2+3
+#      print("Bloque invalido")
+
+x = [1,2,3,4,5]
+for i in x:
+    print("Esto se imprime 5 veces!")
+
+for i in range(0,10):
+    print("esto se imprime 10 veces, el 10 no se imprime")
+
+x = True
+while x:
+    print("esto se imprime 1 vez")
+    x = False
+
+
+while x:
+    print("Esto nunca se imprime")
+
+x = 0
+while x < 10:
+    print("Esto se imprime 10 veces")
+    x += 1 # suma 1 a x y guarda el resultado en x
+
+def mi_saludo(): # aqui se declara una funcion sin argumentos
+    print("Esto no se imprime hasta que se llama")
+
+mi_saludo() # Aqui se llama sin argumentos
+
+def mi_suma(x,y):
+    return x+y
+
+x = mi_suma(10,4) # guarda 14 en x
+ 
+#mi_suma() esto daria un error 
+
+def mi_suma_diez(x=5,y=10): # se pueden definir valores por defecto para los argumentos
+    return x+y
+
+x = mi_suma_diez() # esto regresa 15
+x = mi_suma_diez(y=4) # 9 | definir valores permite asignarle valores a los argumentos por nombre y no solo por posicion 
+
+def mi_saludo(nombre="Mundo"): 
+    print(f"Hola {}")
+
+mi_saludo() # Esto imprime Hola Mundo
+
+mi_saludo("Daniel") # esto imprime Hola Daniel
+mi_saludo(nombre="Daniel")
+
 ```
 
 # Ejercicio 2
