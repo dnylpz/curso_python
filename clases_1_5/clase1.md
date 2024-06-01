@@ -209,6 +209,22 @@ mi_saludo(nombre="Daniel")
 
 ```
 
+## Alcance
+
+```python
+# no se pueden usar variables que se definan dentro de una funcion, fuera de la funcion
+a=10
+def mi_funcion_compleja(n=5):
+    # se pueden usar variables del alcance global dentro de la funcion
+    x = 10
+    y = x*a
+    return y ** x/n
+
+#print(x)  esto manda un error, x no existe en el alcance global
+print(a)
+print(mi_funcion_compleja(n=10))
+```
+
 # Ejercicio 2
 
 ```python
