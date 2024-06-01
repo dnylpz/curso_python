@@ -207,7 +207,15 @@ mi_saludo() # Esto imprime Hola Mundo
 mi_saludo("Daniel") # esto imprime Hola Daniel
 mi_saludo(nombre="Daniel")
 
+def factorial(n=0):
+    if n == 0:
+        return 1 # en una funcion recursiva siempre debe tener un caso base donde regrese
+    else:
+        return n*factorial(n-1) # la funcion se puede llamar a si misma, esto se llama recursividad o funciones recursivas
+
+print(factorial(5)) 
 ```
+
 
 ## Alcance
 
@@ -225,7 +233,24 @@ print(a)
 print(mi_funcion_compleja(n=10))
 ```
 
-# Ejercicio 2
+## Ejercicio 2
+```python
+# escribe un programa que imprima esto usando ciclos
+# *
+# **
+# ***
+# ****
+# *****
+# como pista, puedes usar un ciclo dentro de otro ciclo
+# o preguntarle a ChatGPT
+
+___ i in ____(0,6)
+    ___ j in ____(_,_):
+        print("*", end="")
+    print("")
+```
+
+## Ejercicio 3
 
 ```python
 # Crear una agenda telefonica
