@@ -1,5 +1,18 @@
 # Clase 2
 
+
+## Usando modulos externos
+
+```python
+import re
+import datetime
+from math import ceil
+
+now = datetime.datetime.now()
+re.match(r"^https:\/\/.*\.?[a-zA-z0-9]*\.[a-z]{2,3}","https://google.com") # True
+ceil(19.6) # 20
+```
+
 ## instalando herramientas externas
 
 Para instalar herramientas externas y librerias utilizaremos
