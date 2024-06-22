@@ -1,0 +1,14 @@
+[
+    {
+        "usuario": "daniel",
+        "email": "me@dnylpz.com",
+        "telefono": "6763567453",
+        "edad": 30
+    },
+    {
+        "usuario": "juan",
+        "email": "uncorreo@falso.com",
+        "telefono": "9158277890",
+        "edad": 25
+    }
+]

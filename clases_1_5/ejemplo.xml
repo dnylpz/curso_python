@@ -1,0 +1,16 @@
+<!--Datos-->
+<?xml version="1.0"?>
+<usuarios>
+    <usuario>
+       <nombre>daniel</nombre>
+       <email>me@dnylpz.com</email>
+       <telefono>6763567453</telefono>
+       <edad>30</edad>
+    </usuario>
+    <usuario>
+       <nombre>Juan</nombre>
+       <email>uncorreo@falso.com</email>
+       <telefono>9158277890</telefono>
+       <edad>25</edad>
+    </usuario>
+</usuarios>

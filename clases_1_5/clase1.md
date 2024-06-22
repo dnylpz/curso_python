@@ -187,6 +187,7 @@ def mi_saludo(): # aqui se declara una funcion sin argumentos
 mi_saludo() # Aqui se llama sin argumentos
 
 def mi_suma(x,y):
+    a = 10
     return x+y
 
 x = mi_suma(10,4) # guarda 14 en x
